@@ -1,23 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@400;600&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@400;600&display=swap');
-    
   } 
-
-
-
+  
 .footer {
     display: flex;
     flex-direction: row;
+    padding-top: 30px;
+    width: 100%;
+    justify-content: space-between;
+    font-family: "Open Sans";
 }
 
 .header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    font-family: ;
+    background-color: #004175;
+    border-color: #89DEEF;
+    padding: 20px;
+
+}
+.hero-image {
+    width: 100%;
 }
 
-
+.home-text {
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: space-between;
+}

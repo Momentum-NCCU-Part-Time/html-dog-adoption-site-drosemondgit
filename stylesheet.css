@@ -9,10 +9,9 @@
 .footer {
     display: flex;
     flex-direction: row;
-    padding-top: 30px;
-    width: 100%;
-    justify-content: space-between;
-    font-family: "Open Sans";
+    font-family: "Oswald";
+    color: white;   
+    align-items: center;
 }
 
 .header {
@@ -22,16 +21,56 @@
     background-color: #004175;
     border-color: #89DEEF;
     padding: 20px;
-
+    font-family: "Open Sans";
+    color: white;
 }
+
 .hero-image {
     width: 100%;
 }
 
 .home-text {
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 20%;
+    margin-right: 20%;
     padding-top: 20px;
     padding-bottom: 20px;
-    justify-content: space-between;
+    font-family: "Open Sans";
+    font-size: 14pt;
+}
+
+.main-nav {
+    word-spacing: ;
+}
+
+a:any-link {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    align-items: center;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+#donate-link {
+    background-color: #A6A9F0;
+    background-image: url("/images/donate.jpg");
+    flex: 1 1 auto;
+    text-align: center;
+}
+
+#volunteer-link {
+    background-color: #A6A9F0;
+    background-image: url("/images/volunteer.jpg");
+    flex: 1 1 auto;
+    text-align: center;
+}
+
+#location-link {
+    background-color: #A6A9F0;
+    background-image: url("/images/location.png");
+    flex: 1 1 auto;
+    text-align: center;
 }
